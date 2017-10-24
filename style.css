@@ -1,11 +1,11 @@
 *{
-  fontSize: 16px;
+  font-size: 16px;
 }
 
 h1.about {
-  fontSize: 0.8em;
+  font-size: 0.8em;
 }
 
 h2.about {
-  fontSize: 0.6em;
+  font-size: 0.6em;
 }
