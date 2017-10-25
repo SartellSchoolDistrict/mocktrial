@@ -1,19 +1,96 @@
-*{
+:root{
+  --color-blue: #105FAE;
+  --color-gray: #cccccc;
+}
+
+* {
+  /*
+  border: 2px solid black;
+  */
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
   font-size: 16px;
+  /* Need a font family*/
+  color: black;
+  background-color: var(--color-blue);
 }
 
-header {
+
+/* WELCOME CSS*/
+
+.container-welcome {
+  background-image: url('Media/books.jpeg');
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.welcome-text {
+  display: inline;
+  background-color: var(--color-gray);
   text-align: center;
+  margin: 0% 30%;
+  padding: 0.4em;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  right: 5%;
+  font-size: 2em;
+  border-radius: 0.4em;
 }
 
-.second-heading {
-  font-size: 0.8em;
+/* ABOUT CSS*/
+
+.container-about {
+  background-color: var(--color-gray);
+  text-align: center;
+  padding: 0.4em 20%;
+  font-size: 1.5em;
 }
 
-h1.about {
-  font-size: 0.8em;
+/* CONTACT CSS */
+
+.container-contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--color-blue);
 }
 
-h2.about {
-  font-size: 0.6em;
+.contact {
+  text-align: center;
+  background-color: var(--color-gray);
+  margin: 1% 5%;
+  font-size: 1.4em;
+  padding: 0.2em;
+  border-radius: 0.4em;
+}
+
+.contact img {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+/* MEDIA QUERIES */ 
+
+@media only screen and (max-width: 768px){
+
+  body, html {
+    font-size: 10px;
+  }
+  .container-welcome{
+    background-attachment: scroll;
+  }
+
+  .container-contact {
+    flex-direction: column;
+  }
+
 }
