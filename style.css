@@ -1,6 +1,7 @@
 :root{
   --color-blue: #105FAE;
   --color-gray: #cccccc;
+  --color-red: #451F12;
 }
 
 * {
@@ -15,7 +16,7 @@ body, html {
   font-size: 16px;
   /* Need a font family*/
   color: black;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
 }
 
 
@@ -60,7 +61,7 @@ body, html {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
 }
 
 .contact {
