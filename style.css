@@ -70,11 +70,12 @@ body, html {
   font-size: 1.4em;
   padding: 0.2em;
   border-radius: 0.4em;
+  width: 25%;
 }
 
 .contact img {
-  width: 40%;
-  height: 40%;
+  width: 6em;
+  height: 6em;
   border-radius: 50%;
 }
 
