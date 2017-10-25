@@ -94,3 +94,18 @@ body, html {
   }
 
 }
+
+@media only screen and (max-width: 360px){
+
+  body, html {
+    font-size: 8px;
+  }
+  .container-welcome{
+    background-attachment: scroll;
+  }
+
+  .container-contact {
+    flex-direction: column;
+  }
+
+}
